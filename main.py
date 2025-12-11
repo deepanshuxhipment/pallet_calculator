@@ -126,13 +126,13 @@ def generate_report(pallets, unfitted, pallet_l, pallet_w, pallet_h):
         write(f"\n📐 Volume occupied: {float(volume_used):.3f}")
         write(f"🎯 Occupancy: {float(occupancy):.2f}%")
         
-        write("\n✔ FITTED ITEMS:")
+        '''write("\n✔ FITTED ITEMS:")
         for item in pallet['fitted']:
             write(f"    {item.string()}")
         
         write("\n❌ UNFITTED ITEMS:")
         for item in pallet['unfitted']:
-            write(f"    {item.string()}")
+            write(f"    {item.string()}")'''
         
         write("\n" + "-" * 50)
     
