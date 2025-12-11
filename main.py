@@ -42,7 +42,7 @@ def pack_boxes(pallet_l, pallet_w, pallet_h, boxes):
     pallets = []
     remaining_items = all_items.copy()
     pallet_num = 1
-    max_pallets = 10
+    max_pallets = 100
     
     while remaining_items and pallet_num <= max_pallets:
         write(f"\n=== Packing Pallet {pallet_num} ===")
